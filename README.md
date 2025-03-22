@@ -1,1 +1,1 @@
-"# Stenciled" 
+# Stenciled 
