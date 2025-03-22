@@ -104,8 +104,8 @@ if __name__ == "__main__":
         description="Convert PNG, GIF, or JPG to posterized SVG for vinyl cutting")
     parser.add_argument("input", help="Input image file path (PNG, GIF, JPG)")
     parser.add_argument("output", help="Output SVG file path")
-    parser.add_argument("--colors", type=int, default=8,
-                        help="Number of colors for posterization (default: 8)")
+    parser.add_argument("--colors", type=int, default=2,
+                        help="Number of colors for posterization (default: 2)")
     parser.add_argument("--simplify", type=float, default=0.01,
                         help="Simplification tolerance as a factor of contour arc length (default: 0.01)")
     args = parser.parse_args()
